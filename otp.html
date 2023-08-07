@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive otp form</title>
+
+
+    <!-- bootstrap 5 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+                <div class="logo">
+                    <img src="assets/images/logo.png" class="img-fluid" alt="logo">
+                </div>
+                <form action="" class="rounded bg-white shadow p-5">
+                    <h3 class="text-dark fw-bolder fs-4 mb-2">Two step Verification</h3>
+                    <div class="fw-normal text-muted mb-3">
+                        Enter the verification code we sent to
+                    </div>
+                    <div class="d-flex justify-content-center fw-bold mb-3">
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span>4854</span>
+                    </div>
+                    <div class="otp-input text start mb-3">
+                        <label for="digit" class="mb-2">Type yout 6 digit security code</label>
+                        <div class="d-flex justify-content-between mt-2">
+                            <input type="text" class="form-control" maxlength="1">
+                            <input type="text" class="form-control" maxlength="1">
+                            <input type="text" class="form-control" maxlength="1">
+                            <input type="text" class="form-control" maxlength="1">
+                            <input type="text" class="form-control" maxlength="1">
+                            <input type="text" class="form-control" maxlength="1">
+                        </div>
+                    </div>
+
+                    <button type="submit" formaction="index.html" class="btn btn-primary px-4 py-2 submit-btn mb-3 my-2">Submit</button>
+                    <div class="fw-normal text-muted mb-4">
+                        Didn't get the code ?
+                        <a href="" class="text-primary fw-bold text-decoration-none">Resend</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrat js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+</body>
+</html>

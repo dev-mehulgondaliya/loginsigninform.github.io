@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive login form</title>
+
+
+    <!-- bootstrap 5 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+                <div class="logo">
+                    <img src="assets/images/logo.png" class="img-fluid" alt="logo">
+                </div>
+                <form action="" class="rounded bg-white shadow p-5">
+                    <h3 class="text-dark fw-bolder fs-4 mb-2">Sign In To HILLTOP</h3>
+                    <div class="fw-normal text-muted mb-4">
+                        New Here? <a href="signup.html" class="text-primary fw-bold text-decoration-none">Create a Account</a>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="mt-2 text-end">
+                        <a href="forget.html" class="text-primary fw-bold text-decoration-none">Forget Password?</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn w-100 my-4">Continue</button>
+                    <div class="text-center text-muted text-uppercase mb-3">or</div>
+                    <a href="" class="btn btn-light login-btn w-100 mb-3">
+                        <img src="assets/images/google-icon.svg" class="img-fluid me-3" alt="">Continue with a Google
+                    </a>
+                    <a href="" class="btn btn-light login-btn w-100 mb-3">
+                        <img src="assets/images/facebook-icon.svg" class="img-fluid me-2" alt=""> Continue with a Facebook
+                    </a>
+                    <a href="" class="btn btn-light login-btn w-100 mb-3">
+                        <img src="assets/images/linkedin-icon.svg" class="img-fluid me-3" alt="">Continue with a Linkedin
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrat js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
